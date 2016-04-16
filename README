@@ -1,0 +1,21 @@
+A.
+
+00000000004004b4 T _Z7averagePdRd
+00000000004004e2 T _Z7averageif
+000000000040050a T main
+
+B.
+output:
+1 8
+4 8
+4 8
+8 8
+
+Why?:
+
+char is only 1 byte
+int and float are both 4 bytes
+double is 8 bytes
+
+but their pointers' sizes are all 8 bytes.
+
